@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Form</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eugenio, Gian Orland E.">
+        <meta http-equiv="refresh" content="1800">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="EUGENIO_BurgerOrderForm_ITBD.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <div align="center">
+                <h2>CUSTOMER'S INFORMATION</h2>
+                </div>
+                <br>    
+                <br>
+                    <label  class="info" for="Name">Name: </label>
+                    <input class="info" type="text" name="Name" id="Name" placeholder="Type your name here." required >
+                    <br>
+                    <br>
+                    <label class="info" for="Address">Address: </label>
+                    <input class="info" type="text" name="Address" id="Address" placeholder="Type your Address here." required>
+                    <br>
+                    <br>
+                    <label class="info" for="Email">Email: </label>
+                    <input class="info"  type="email" name="Email" id="Email" placeholder="Type your Email here." required >
+                    <br>
+                    <br>
+                    <label class="info"  for="ContactNo">Contact Number: </label>
+                    <input class="info" type="number" name="ContactNo" id="ContactNo" placeholder="Type your Contact Number here." maxlength="12" minlength="12" min="1" required >
+                    <br>
+                    <br>
+                    <label class="info" style="width: 240px;" class="info" for="DeliveryInstructions">Add delivery instruction</label>
+                    <br>
+                    <textarea class="info" name="message" id="DeliveryInstructions"></textarea>
+                    <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <div align="center">
+                <h2 style="text-align: center;">FOODS</h2>
+                    <div>
+                        <h2> 
+                            <a class="typeA"  href="#Burger">Burger</a>    
+                            <a class="typeA" href="#pasta">Pasta</a>
+                            <a class="typeA" href="#fries">Fries </a> 
+                            <a class="typeA" href="#drinks">Drinks</a> 
+                        </h2>
+                    </div>
+                </div>            
+            </fieldset>
+
+            <fieldset>
+            <div align="center" class="menu">
+            <h2 id="Burger">BURGERS</h2>
+                <img style="width: 389px; height: 420px; float:inherit;" src="EUGENIO_IMAGES_ITBD/borger.jpg">
+            </div>
+                <p><strong>Burgers Offered: </strong></p>
+                <div>
+                    <input type="radio" id="WhiteBun" name="bun" value="WhiteBun">
+                      <label for="WhiteBun">White Bun</label>  
+                </div>
+                <div>
+                    <input type="radio" id="WheatBun" name="bun" value="WheatBun">
+                      <label for="WheatBun">Wheat Bun</label>  
+                </div>
+                <div>
+                    <input type="radio" id="honey oat" name="bun" value="honey oat">
+                      <label for="honey oat">Honey Oat</label>  
+                </div>
+                <div>
+                    <input type="radio" id="sugarfree" name="bun" value="sugarfree">
+                      <label for="sugarfree">Sugar Free</label>  
+                </div>
+
+                <p><strong>Add ons</strong></p>
+
+                <div>
+                    <input type="checkbox" id="singlepatty">
+                    <span class="checkmark"></span>
+                    <label for="singlepatty">Single Patty
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="doule patty">
+                    <span class="checkmark"></span>
+                    <label for="doule patty">Double Patty
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="with cheese">
+                    <span class="checkmark"></span>
+                    <label for="with cheese">With Cheese
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="coleslaw">
+                    <span class="checkmark"></span>
+                    <label for="coleslaw">Coleslaw
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tomato">
+                    <span class="checkmark"></span>
+                    <label for="tomato">Tomato
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="onion">
+                    <span class="checkmark"></span>
+                    <label for="onion">Onion
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Pickles">
+                    <span class="checkmark"></span>
+                    <label for="Pickles">Pickles
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Bacon">
+                    <span class="checkmark"></span>
+                    <label for="Bacon">Bacon
+                    </label>
+                </div>
+                
+                <br>
+                <label for="Quantity_One">Quantity: </label>
+                    <input class="Quantity" type="number" name="Quantity_One" id="Quantity_One" min="1" max="100">
+                </fieldset>
+            <br>
+            <fieldset>
+            <div align="center" class="menu">
+                <h2 id="pasta">PASTA</h2>
+                    <img style="width: 400px; height: 355px; float: left; padding-left: 30px; padding-right: 60px;" src="EUGENIO_IMAGES_ITBD/pasta.jpg">
+            </div>
+            <div>
+                <p><strong>Pastas: </strong></p>
+                <div>
+                    <input type="radio" id="SPAGHETTI" name="pasta" value="SPAGHETTI">
+                      <label for="SPAGHETTI">Spaghetti</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Pesto" name="pasta" value="Pesto">
+                      <label for="Pesto">Pesto</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Carbonara" name="pasta" value="Carbonara">
+                      <label for="Carbonara">Carbonara</label>  
+                </div>
+                
+                <p><strong>Extras: </strong></p>
+
+                <div>
+                    <input type="checkbox" id="cheese">
+                    <span class="checkmark_one"></span>
+                    <label for="cheese">Cheese
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sauce">
+                    <span class="checkmark_one"></span>
+                    <label for="sauce">Sauce
+                    </label>
+                </div>
+                <br>
+                <label for="Quantity_two">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_two" id="Quantity_two" min="1" max="100" >
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div align="center" class="menu">
+                <h2 id="fries">FRIES</h2>
+                <img style="width: 400px; height: 350px; float: left; padding-left: 30px; padding-right: 60px;" src="EUGENIO_IMAGES_ITBD/prays.png">
+            </div>
+
+            <p><strong>Flavor: </strong></p>
+
+            <div>
+                <input type="checkbox" id="Honey Butter">
+                <span class="checkmark_one"></span>
+                <label for="Honey Butter">Honey Butter
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="Barbecue">
+                <span class="checkmark_one"></span>
+                <label for="Barbecue">Barbecue
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" id="Nori">
+                <span class="checkmark_one"></span>
+                <label for="Nori">Nori
+                </label>
+            </div>
+
+            <br>
+
+            <p><strong>Sizes: </strong></p>
+            <div>
+                <input type="radio" id="Small" name="sizes" value="Small">
+                  <label for="Small">Small</label>  
+            </div>
+            <div>
+                <input type="radio" id="Medium" name="sizes" value="Medium">
+                  <label for="Medium">Medium</label>  
+            </div>
+            <div>
+                <input type="radio" id="Large" name="sizes" value="Large">
+                  <label for="Large">Large</label>  
+            </div>
+                <br>
+                <label for="Quantity_three">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_three" id="Quantity_three" min="1" max="100" >
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <div align="center" class="menu">
+                <h2 id="drinks">DRINKS</h2>
+                <img style=" height: 330px; float: left; padding-left: 120px; padding-right: 170px;" src="EUGENIO_IMAGES_ITBD/drinks.jpg">
+            </div>
+            
+            <p><strong>Drinks Offered: </strong></p>
+
+            <div>
+                <input type="radio" id="Sprite" name="drinks" value="Sprite">
+                  <label for="Sprite">Sprite</label>  
+            </div>
+            <div>
+                <input type="radio" id="Coke" name="drinks" value="Coke">
+                  <label for="Coke">Coke</label>  
+            </div>
+            <div>
+                <input type="radio" id="Pepsi" name="drinks" value="Pepsi">
+                  <label for="Pepsi">Pepsi</label>  
+            </div>
+            <div>
+                <input type="radio" id="Royal" name="drinks" value="Royal">
+                  <label for="Royal">Royal</label>  
+            </div>
+
+            <p><strong>Sizes: </strong></p>
+
+            <div>
+                <input type="radio" id="Small_one" name="sizes_one" value="Small_one">
+                  <label for="Small_one">Small</label>  
+            </div>
+            <div>
+                <input type="radio" id="Medium_one" name="sizes_one" value="Medium_one">
+                 <label for="Medium_one"> Medium</label>  
+            </div>
+            <div>
+                <input type="radio" id="Large_one" name="sizes_one" value="Large_one">
+                  <label for="Large_one">Large</label>  
+            </div>
+
+            <br>
+
+                <label for="Quantity_four">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_four" id="Quantity_four" min="1" max="100">
+        </fieldset>
+        <br>
+        <fieldset>
+            <div align="center" class="menu">
+            <h2 id="pasta">Delivery </h2>
+                <img style="width: 250px; height: 250px; float: left; padding-left: 30px; padding-right: 60px;" src="EUGENIO_IMAGES_ITBD/deliver.png">
+            </div>
+            <div>
+                <p><strong>Deliver or Pick-up: </strong></p>
+                <div>
+                    <input type="radio" id="Deliver" name="Deliver" value="Deliver">
+                      <label for="Deliver">Deliver</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Pick-up" name="Pick-up" value="Pick-up">
+                      <label for="Pick-up">Pick-up</label>  
+                </div>
+        </fieldset>
+        <fieldset>
+            <div style="text-align: center;">
+                <h2>
+                    <a class="typeA"  href="Untitled-1.html">Reset</a>
+                    <a class="typeA"  href="OrderForm.html">Submit</a>
+                </h2>
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>

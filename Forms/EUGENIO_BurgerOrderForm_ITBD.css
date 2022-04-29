@@ -1,0 +1,76 @@
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-image:url('EUGENIO_IMAGES_ITBD/background.jpg');
+}
+h1{
+    font-size: 50px;
+    background-color: #de90aa;
+    border-radius: 20px;
+    font-weight:bolder;
+}
+h2{
+    background-color: #de90aa;
+    width: 40%;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: middle;
+    margin: auto;
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+}
+fieldset{
+    width: 60%;
+    box-shadow: 10px 5px 5px 1px rgb(228, 172, 172);
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    padding-top: 15px;
+}
+label.information{
+    padding: 20px 100px 10px 200px;
+    display: inline-block;
+    width: 190px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+input.information, input[type="text"]{
+    padding: 15px 5px;
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+}
+input.Quantity{
+    width: 50px;
+    padding: 7px;
+}
+textarea.info{
+    padding: 10px;
+    height: 110px;
+    width: 540px;
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+    resize: none;
+}
+textarea.Feedback{
+    resize: none;
+    height: 150px;
+    width: 500px;
+}
+a.typeA:link{
+    color:rgb(0, 0, 0);
+}
+a.typeA:visited{
+    color:rgb(129, 175, 235);
+}
+a.typeA:hover
+{background-color:rgb(250, 215, 151);font-size:larger; color:white;font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+a.typeA:active{
+    background-color:rgb(250, 215, 151);color:rgb(98, 0, 255);
+}
+a.typeA{
+    border: 1px solid orange;
+}
